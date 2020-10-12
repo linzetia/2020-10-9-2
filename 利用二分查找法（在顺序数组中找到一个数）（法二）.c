@@ -16,11 +16,11 @@ int main()
 		int mid = (left + right) / 2;//中间标（取整）
 		if (k < arr[mid])
 		{
-			right -= 1;
+			right =mid-1;
 		}
 		else if (k > arr[mid])
 		{
-			left += 1;
+			left = mid+1;
 		}
 		else
 		{
